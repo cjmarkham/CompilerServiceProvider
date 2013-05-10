@@ -9,7 +9,9 @@
         }
     ],
     "autoload": {
-        "psr-0": { "Silex\\Provider\\": "" }
+        "psr-0": { 
+        	"Cjmarkham": "src/" 
+        }
     },
     "require": {
         "silex/silex": "~1.0"
