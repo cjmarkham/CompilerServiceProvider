@@ -1,6 +1,6 @@
 <?php
 
-namespace CssCompiler\CompilerServiceProvider;
+namespace CssCompiler;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;
