@@ -13,6 +13,5 @@
     },
     "require": {
         "silex/silex": "~1.0"
-    },
-    "target-dir": "Silex/Provider"
+    }
 }
