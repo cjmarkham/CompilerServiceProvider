@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-0": { 
-        	"Cjmarkham": "src/" 
+        	"CssCompiler": "src" 
         }
     },
     "require": {
