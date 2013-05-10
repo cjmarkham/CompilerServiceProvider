@@ -3,22 +3,16 @@ CompilerServiceProvider
 
 A css compiler for silex
 
-Installation
-------------
-
-	cd path/to/your/application
-	git clone git@github.com:doddsey65/CompilerServiceProvider.git vendor/cjmarkham/src/Cjmarkham/CompilerServiceProvider
-
 Registering
 -----------
 
-In composer.json add to your autoload psr
+In composer.json add this to your dependencies
 
-	"Cjmarkham" : "vendor/cjmarkham/src"
+	"cjmarkham/css-compiler": "dev-master"
 
 Then to register
 
-	$app->register(new Cjmarkham\CompilerServiceProvider\CompilerServiceProvider());
+	$app->register(new CssCompiler\CompilerServiceProvider());
 
 Options
 -------
@@ -34,7 +28,7 @@ Options
 Usage
 -----
 
-	$app->register(new Cjmarkham\CompilerServiceProvider\CompilerServiceProvider(), array(
+	$app->register(new CssCompiler\CompilerServiceProvider(), array(
 	    'compiler.shorten_hex' => true,
 	    'compiler.rgb_to_hex' => true,
 	    'compiler.remove_empty' => true,
