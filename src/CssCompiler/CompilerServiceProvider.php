@@ -1,6 +1,6 @@
 <?php
 
-namespace Cjmarkham\CompilerServiceProvider;
+namespace CssCompiler\CompilerServiceProvider;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;
