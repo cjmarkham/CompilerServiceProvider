@@ -13,6 +13,5 @@
     },
     "autoload": {
         "psr-0": { "Cjmarkham": "." }
-    },
-    "target-dir": "Silex/Provider"
+    }
 }
